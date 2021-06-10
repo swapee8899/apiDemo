@@ -1,0 +1,33 @@
+Request method:	POST
+Request URI:	https://test-connect.compucom.com:8080/api/fr/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		clientip=::ffff:10.251.50.80
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mail": "Testuser2@fgatest.com",
+    "password": "Compucom@12"
+}
+Request method:	POST
+Request URI:	https://test-connect.compucom.com:8080/api/fr/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		clientip=::ffff:10.251.50.80
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sessionId": null
+}

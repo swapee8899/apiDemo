@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 45.133 s <<< FAILURE! - in cucumber.Options.TestRunner
+Login and User profile info testing of Compucom connect API's.Verify if user is able to login with loginAPI  Time elapsed: 23.241 s  <<< ERROR!
+java.net.ConnectException: Connection timed out: connect
+
+Logout testing of Compucom connect API's.Verify if user is able to logout with logoutAPI  Time elapsed: 21.04 s  <<< ERROR!
+java.net.ConnectException: Connection timed out: connect
+
